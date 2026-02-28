@@ -10,6 +10,24 @@ export const metadata: Metadata = {
   title: 'Year of the Horse Quiz',
   description: 'Discover your fortune with your personal horse-oscope for 2026 by Lanna',
   generator: 'v0.app',
+  openGraph: {
+    title: 'Year of the Horse Quiz',
+    description: 'Your 2026 Horse-oscope Awaits',
+    images: [
+      {
+        url: '/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Year of the Horse - Your 2026 Horse-oscope Awaits',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Year of the Horse Quiz',
+    description: 'Your 2026 Horse-oscope Awaits',
+    images: ['/images/og-image.png'],
+  },
   icons: {
     icon: [
       {
