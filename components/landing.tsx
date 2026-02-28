@@ -96,7 +96,7 @@ export default function Landing({ onStart }: LandingProps) {
               className="text-[#720611] text-[0.65rem] sm:text-xs uppercase font-sans mb-3 sm:mb-5 tracking-widest font-medium"
               variants={itemVariants}
             >
-              By @LANNA.WNG
+              BY LANNA WANG
             </motion.p>
 
             {/* Subtitle */}
@@ -156,7 +156,7 @@ export default function Landing({ onStart }: LandingProps) {
               className="text-[#720611] text-sm uppercase font-sans font-medium mb-1.5 tracking-[0]"
               variants={itemVariants}
             >
-              By @LANNA.WNG
+              BY LANNA WANG
             </motion.p>
           </motion.div>
 
