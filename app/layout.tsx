@@ -7,7 +7,7 @@ import './globals.css'
 const _facultyGlyphic = Faculty_Glyphic({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
-  title: 'Hold Your Horses! - Your 2026 Horse-oscope',
+  title: 'Year of the Horse Quiz',
   description: 'Discover your fortune with your personal horse-oscope for 2026 by Lanna',
   generator: 'v0.app',
   icons: {
