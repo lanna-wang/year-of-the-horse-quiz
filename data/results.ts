@@ -16,7 +16,7 @@ export interface Horse {
 
 export const horses: Horse[] = [
   {
-    id: "chess",
+    id: "strategist",
     name: "Chess Piece Horse",
     title: "The Strategist",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20strategist%20text-LQpbSeCsVZL02nxuOgcw6FniXZMMYH.svg",
@@ -28,10 +28,10 @@ export const horses: Horse[] = [
       number: 4
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20chess-XewICheHbY9lCwqEjJkbjqrB8ozoDa.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20strategist-YAEuZlxsR1Fq1ziVEA9kJYCgQitdsJ.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20strategist-4PfCkKULbHjaalZuBPIAcqHWetbaj8.png"
   },
   {
-    id: "bauhaus",
+    id: "thinker",
     name: "Bauhaus Horse",
     title: "The Thinker",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20thinker%20text-AivcSo6cUsOOpzTex3WmCI7k4YEYec.svg",
@@ -43,10 +43,10 @@ export const horses: Horse[] = [
       number: 3
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20bauhaus-cwWB8S8r5OOSzpTv9FXWmHIFdjPJAu.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20thinker-bACA5lsCjer03DpFN82bJwaigNT8KB.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20thinker-1EIDsCltc3GEjgHsqIuaatUoe9SiOR.png"
   },
   {
-    id: "abstract",
+    id: "minimalist",
     name: "Abstract Horse",
     title: "The Minimalist",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20minimalist%20text-h6Mr9j8kovS6wHD8f31jjEfjyPuqjq.svg",
@@ -58,10 +58,10 @@ export const horses: Horse[] = [
       number: 2
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20green-D8EeDCBaBhntIWpCizEIBDe8cJfFTb.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20minimalist-wADWw8oFabrSQ0LKdv1xGL07G3aGO0.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20minimalist-ayq8oo39ctZBkTIDNgi5xz1KYPRlSP.png"
   },
   {
-    id: "papercut",
+    id: "traditionalist",
     name: "Paper Cut Horse",
     title: "The Traditionalist",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20traditionalist%20text-YxOzrXrkBgdzOOhAlyABvaXPQJU1RX.svg",
@@ -73,10 +73,10 @@ export const horses: Horse[] = [
       number: 8
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20paper%20cut-Ioh1ueMKW2nT5ONgSFv2XyEha1GNHm.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20traditionalist-jei5MniaXOuqvAW4wDNZy9v5gOINb5.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20traditionalist-lp7eyMrtilMxTcZtXKXV9UFVFr4hjl.png"
   },
   {
-    id: "cartoony",
+    id: "jester",
     name: "Funny / Cartoony Horse",
     title: "The Jester",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20jester%20text-idMB3do2v9DyHgeUJ4NY5kxlbXFL5T.svg",
@@ -88,10 +88,10 @@ export const horses: Horse[] = [
       number: 5
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20funny-bOx3qqqXBVT4d3xWLHmaZgH68Po6q8.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20jester-xG5KGNGTDnFxgzJvEoVYnttcXiuAQV.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20jester-vvtx3o9S04Y7esru8zNuotSnzuOU09.png"
   },
   {
-    id: "rocking",
+    id: "haven",
     name: "Rocking Horse",
     title: "The Haven",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20haven%20text-66P4sAIf8hCErJH4icre5PAwoZgajq.svg",
@@ -103,10 +103,10 @@ export const horses: Horse[] = [
       number: 6
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20rocking%20horse-0LMtZLSctxt3qkvG2QI2DJKIg48eeS.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20haven-xS3GhhNM2F7Z20HI9p0mX7Tj84z4bZ.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20haven-wEN7uYWobBh3SZMgEKdxVlEPfygY0k.png"
   },
   {
-    id: "carousel",
+    id: "romantic",
     name: "Carousel Horse",
     title: "The Romantic",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20romantic%20text-fIKqMUsopNBdFd4MvjqO0CvSan5uA0.svg",
@@ -118,10 +118,10 @@ export const horses: Horse[] = [
       number: 7
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20carousel-dWunYdtvVGkjyVdcCftWHFpMIvgr9h.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20carousel-dWunYdtvVGkjyVdcCftWHFpMIvgr9h.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20romantic-IfGfW5BVD4HzFumQwZJX8VI9vdI7oQ.png"
   },
   {
-    id: "folk",
+    id: "hearth",
     name: "Folk Horse",
     title: "The Hearth",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20hearth%20text-aQjw3GE79MFg91IZp2AjUHWZ83ZcRj.svg",
@@ -133,10 +133,10 @@ export const horses: Horse[] = [
       number: 9
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20folk-zBBLkkRCjAHUD9Pc45eA8kkCwrPDuY.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20hearth-QZMn6W1XrGAtaDEAG5r8MiXpulYgyY.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20hearth-tseAn0KlaSJDzNnZrZOoRjhYfs0P7C.png"
   },
   {
-    id: "pixel",
+    id: "navigator",
     name: "Pixel Horse",
     title: "The Navigator",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20navigator%20text-robxPFxGrN9uWbcut8jj7gaGl1zCSM.svg",
@@ -148,10 +148,10 @@ export const horses: Horse[] = [
       number: 11
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20pixel-QZy7ktpSWxhjvKvMfwq6jpQbrG9ZZy.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20navigator-K7hM4MztAthdnai0qauZDqTSPRYDk7.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20navigator-zhjCkPNxFIMdHMF0sAjAWEnafuCdrn.png"
   },
   {
-    id: "whimsical",
+    id: "dreamer",
     name: "Whimsical Horse",
     title: "The Dreamer",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20dreamer%20text-7uoo1QoBYxvj3J5DGcIXJByS80XRIC.svg",
@@ -163,10 +163,10 @@ export const horses: Horse[] = [
       number: 10
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20whimsical-AzZgUuGXcxnSlW5Yl77chQ4rLo36MD.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20dreamer-r60M6XDYzdUYZPdR8AwgWqcz2HaDMC.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20dreamer-EeyshzWE0u3fpEmTgqCtQWWOUlDcb0.png"
   },
   {
-    id: "war",
+    id: "steadfast",
     name: "War Horse",
     title: "The Steadfast",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20steadfast%20text-fCiXNFDQNzqUyNxcch1rGbhh77HJw6.svg",
@@ -178,10 +178,10 @@ export const horses: Horse[] = [
       number: 13
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20war-YgpBxK77bM3lzQofUs9ahfUWo3VDrU.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20steadfast-P9QPhIAWMA1AdIZijhbZJQWuIxZizy.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20steadfast-9r2va8x3zG7Milx9vJbYqUPDlgHTo0.png"
   },
   {
-    id: "ink",
+    id: "force",
     name: "Chinese Ink Painting Horse",
     title: "The Force",
     titleSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20force%20text-vKN1oMlgMZjQWVvFwUVTDnigO0CWxX.svg",
@@ -193,6 +193,6 @@ export const horses: Horse[] = [
       number: 1
     },
     artSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/year%20of%20the%20horse%20card%20-%20ink%20horse-vCmk4TGhZIZZNyAm0jAH6zRh10vjBs.png",
-    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20force-7zKMTqAaNFmQc3fPgyWwMPcPSApArM.png"
+    shareCardSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/the%20force-qJCP3ZABIhvDju3nZaWV3mn9YFsLXt.png"
   }
 ]
