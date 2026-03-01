@@ -20,11 +20,54 @@ export default function ShareCard({ horse }: ShareCardProps) {
       const response = await fetch(horse.shareCardSrc)
       const blob = await response.blob()
 
+      // Create an image element to load the original
+      const img = new Image()
+      img.crossOrigin = "anonymous"
+      
+      const imageLoaded = new Promise<void>((resolve, reject) => {
+        img.onload = () => resolve()
+        img.onerror = reject
+      })
+      
+      img.src = URL.createObjectURL(blob)
+      await imageLoaded
+
+      // Resize for mobile-optimized download (max 1080px width for Instagram stories)
+      const maxWidth = 1080
+      const scale = Math.min(1, maxWidth / img.width)
+      const newWidth = Math.round(img.width * scale)
+      const newHeight = Math.round(img.height * scale)
+
+      // Create canvas and draw resized image
+      const canvas = document.createElement("canvas")
+      canvas.width = newWidth
+      canvas.height = newHeight
+      const ctx = canvas.getContext("2d")
+      
+      if (ctx) {
+        // Enable image smoothing for better quality
+        ctx.imageSmoothingEnabled = true
+        ctx.imageSmoothingQuality = "high"
+        ctx.drawImage(img, 0, 0, newWidth, newHeight)
+      }
+
+      // Convert to optimized JPEG (smaller file size than PNG)
+      const optimizedBlob = await new Promise<Blob>((resolve) => {
+        canvas.toBlob(
+          (b) => resolve(b || blob),
+          "image/jpeg",
+          0.85 // Quality setting for good balance of size/quality
+        )
+      })
+
+      // Clean up the object URL from loading
+      URL.revokeObjectURL(img.src)
+
       // Create download link
-      const url = URL.createObjectURL(blob)
+      const url = URL.createObjectURL(optimizedBlob)
       const link = document.createElement("a")
       link.href = url
-      link.download = `${horse.title.toLowerCase().replace(/\s+/g, "-")}-horse-oscope.png`
+      link.download = `${horse.title.toLowerCase().replace(/\s+/g, "-")}-horse-oscope.jpg`
       link.click()
       URL.revokeObjectURL(url)
     } catch (error) {
